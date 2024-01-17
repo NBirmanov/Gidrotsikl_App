@@ -1,0 +1,2673 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .current__content-block, .current__content, .current__nav, .category__bloc-subtitle, .categoty__block, .search__form, .price, .advertising__block-price, .advertising, .header__bottom-list, .nav__list, .header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .current__content-block, .current__content, .current__nav, .category__bloc-subtitle, .categoty__block, .search__form, .price, .advertising__block-price, .advertising, .header__bottom-list, .nav__list, .header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 454px;
+}
+
+.nav__list {
+  width: 454px;
+}
+
+.nav__link {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.logo {
+  text-align: center;
+  margin: 21px;
+}
+.logo .logo__img {
+  width: 53px;
+  height: 53px;
+}
+.logo .logo__text {
+  color: #2F3035;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.map__text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.header__top-button {
+  background: #FFF;
+}
+
+.header__bottom-list {
+  max-width: 1171px;
+  height: 53px;
+  background: #F0F0F4;
+  overflow-x: scroll;
+}
+
+.header__bottom-btn {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  width: 119px;
+  height: 53px;
+}
+
+.header__bottom-btn:hover {
+  border-bottom: 2px solid #1C62CD;
+}
+
+.burger__menu {
+  background: #FFF;
+  display: none;
+}
+
+.nav__adaptive {
+  width: 243px;
+  height: 1290px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+
+.burger__menu-btn {
+  width: 242.002px;
+  height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 42px;
+}
+
+.nav__link-adaptive {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.size {
+  padding-left: 53px;
+}
+
+.nav__adaptive-img {
+  margin-left: 10px;
+  margin-right: 23px;
+}
+
+.map__adaptive {
+  width: 181px;
+  margin-top: 65.46px;
+  margin-left: 44px;
+  margin-bottom: 136px;
+}
+
+@media screen and (max-width: 416px) {
+  .header__top {
+    padding: 28.83px 10px 0 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .logo__img {
+    display: none;
+  }
+  .map {
+    display: none;
+  }
+  .burger__menu {
+    display: block;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .current__content-block, .current__content, .current__nav, .category__bloc-subtitle, .categoty__block, .search__form, .price, .advertising__block-price, .advertising, .header__top, .nav__list, .header__bottom-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advertising {
+  flex-wrap: wrap;
+  padding-top: 81px;
+}
+
+.advertising__img {
+  width: 100%;
+  max-width: 870px;
+  height: 400px;
+  margin: auto;
+  background-image: url(../images/advertising/Rectangle\ 55.png);
+  position: relative;
+}
+.advertising__img h1 {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 50px;
+  font-style: none;
+  font-weight: 700;
+  line-height: 50px;
+  width: 285px;
+  height: 150px;
+  position: absolute;
+  top: 73px;
+  left: 50%;
+}
+.advertising__img .advertising__img-left {
+  position: absolute;
+  top: 45%;
+  left: 1%;
+  background: rgba(253, 253, 253, 0);
+}
+.advertising__img .advertising__img-right {
+  position: absolute;
+  top: 45%;
+  left: 95%;
+  background: rgba(253, 253, 253, 0);
+}
+.advertising__img .advertising__img-center {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+
+.advertising__block {
+  width: 265px;
+  height: 397px;
+  border-radius: 3px;
+  border: 1px solid #CDCDCD;
+  margin: auto;
+}
+
+.promotion {
+  width: 90px;
+  height: 30px;
+  background: #1C62CD;
+}
+.promotion p {
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.price {
+  margin-right: 7.44px;
+}
+.price p {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 27px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.advertising__block-img {
+  margin-top: 39px;
+  margin-left: 60px;
+}
+
+.advertising__block-title {
+  width: 197.783px;
+  margin: auto;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  text-align: center;
+  padding-top: 4.31px;
+}
+
+.promotion__block {
+  width: 264px;
+  height: 99px;
+  background: #F0F0F4;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.promotion__text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-top: 26px;
+}
+
+.promation__date {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+@media screen and (max-width: 416px) {
+  .advertising__img {
+    width: 320px;
+    height: 164px;
+    background-image: url(../images/advertising/Слайдер\ 1.png);
+  }
+  .advertising__img h1 {
+    display: none;
+  }
+  .advertising__img .advertising__img-left {
+    display: none;
+  }
+  .advertising__img .advertising__img-right {
+    display: none;
+  }
+  .advertising__img .advertising__img-center {
+    display: none;
+  }
+  .advertising__block {
+    margin-top: 41px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .current__content-block, .current__content, .current__nav, .category__bloc-subtitle, .categoty__block, .search__form, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  padding-top: 77px;
+}
+
+.search__button {
+  width: 204px;
+  height: 47px;
+  border-radius: 5px;
+  background: #FFF;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.search__button:hover {
+  background: #F0F0F4;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.search__button-long {
+  width: 271px;
+  height: 47px;
+  border-radius: 5px;
+  background: #FFF;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.search__button-long:hover {
+  background: #F0F0F4;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+input[id=search__input] {
+  width: 1025px;
+  height: 50px;
+  border-radius: 3px;
+  background: #F0F0F4;
+  border: none;
+  color: #656464;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
+.search__form-btn {
+  width: 145px;
+  height: 50px;
+  border-radius: 3px;
+  background: #1C62CD;
+  border: none;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  margin-top: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .current__content-block, .current__content, .current__nav, .category__bloc-subtitle, .categoty__block, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.categoty__block {
+  width: 370px;
+  height: 129px;
+  border-radius: 3px;
+  border: 1px solid #CDCDCD;
+  background: #FFF;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px 37.79px 7px 20px;
+}
+
+.categoty__block:hover {
+  box-shadow: 3px 3px 20px 0px rgba(50, 50, 50, 0.25);
+}
+.categoty__block:hover .block__text {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 23px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.category__bloc-subtitle {
+  width: 69px;
+  padding-top: 52px;
+  padding-bottom: 7px;
+}
+
+.block__text {
+  color: #2F3035;
+  font-family: "Barlow", sans-serif;
+  font-size: 23px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.block__subtitle {
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .current__content-block, .current__content, .current__nav, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  max-width: 1241.182px;
+  min-height: 597px;
+  margin: auto;
+  margin-bottom: 86px;
+  margin-top: 80px;
+}
+
+.current__text {
+  color: #2F3035;
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.current__nav {
+  max-width: 758px;
+  height: 80px;
+  padding-top: 19px;
+  margin-bottom: 40px;
+  overflow-x: scroll;
+}
+
+.current__nav-btn {
+  background: #FFF;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  margin-right: 50px;
+  padding-bottom: 10px;
+}
+
+.current__nav-btn:hover {
+  border-bottom: 2px solid #1C62CD;
+}
+
+.current__content-block {
+  max-width: 1174px;
+  height: 406px;
+  overflow-x: scroll;
+}
+
+.current__content-btn {
+  background: #FFF;
+}
+
+.current__content-button {
+  width: 252px;
+  height: 50px;
+  background: #F0F0F4;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.8px;
+  margin-top: 35px;
+}
+
+.btn {
+  text-align: center;
+}
+
+@media screen and (max-width: 416px) {
+  .current__text {
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle, .current__nav, .current__content, .current__content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.billboard__block {
+  height: 165px;
+  background: #1C62CD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 71px;
+}
+
+.billboard__img {
+  margin-left: 71px;
+}
+
+.billboard__title {
+  width: 308px;
+  color: #FFF;
+  font-family: #2F3035;
+  font-size: 36px;
+  font-style: none;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.billboard__btn {
+  width: 284px;
+  height: 57px;
+  background: #FFF;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  font-style: none;
+  font-weight: 500;
+  line-height: 50px;
+  margin-right: 10%;
+}
+
+.billboard__block-adaptive {
+  width: 300px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+  background: #1C62CD;
+  margin-bottom: 71px;
+  position: relative;
+}
+
+.billboard__img-adaptive {
+  position: absolute;
+  left: 9.38px;
+  top: 35px;
+}
+.billboard__img-adaptive img {
+  width: 66.563px;
+  height: 54px;
+}
+
+.billboard__img-adaptive2 {
+  position: absolute;
+  top: 39px;
+  left: 218.44px;
+}
+.billboard__img-adaptive2 img {
+  width: 66.563px;
+  height: 54px;
+}
+
+.billboard__text-adaptive {
+  width: 215.625px;
+  margin: auto;
+  text-align: center;
+}
+
+.billboard__title-adaptive {
+  width: 215.625px;
+  color: #FFF;
+  font-family: #2F3035;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 700;
+  line-height: 36px;
+  line-height: 18px;
+  text-align: center;
+}
+
+@media screen and (max-width: 416px) {
+  .billboard {
+    width: 320px;
+    height: 90px;
+    display: block;
+  }
+  .billboard__btn {
+    width: 141px;
+    height: 33px;
+    color: #2F3035;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+    font-style: none;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  .billboard__img img {
+    width: 79px;
+    height: 51px;
+  }
+  .billboard__block-adaptive {
+    display: block;
+  }
+  .billboard__block {
+    display: none;
+  }
+  .billboard__btn {
+    width: 132.188px;
+    height: 33px;
+    margin: auto;
+    color: #2F3035;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+    font-style: none;
+    font-weight: 500;
+    line-height: 50px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle, .current__nav, .current__content, .current__content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: #F0F0F4;
+  height: 231px;
+}
+
+.footer__main {
+  background: #F0F0F4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 231px;
+}
+
+.footer__title {
+  width: 222px;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  margin-bottom: 34px;
+}
+
+.footer__form {
+  width: 315px;
+}
+
+.footer__input {
+  width: 201px;
+  height: 33px;
+  background: #FFF;
+  border: none;
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-left: 12px;
+}
+
+.footer__btn {
+  width: 109px;
+  height: 33px;
+  background: #1C62CD;
+  color: #FFF;
+  font-family: #2F3035;
+  font-size: 11px;
+  font-style: none;
+  font-weight: 600;
+  line-height: none;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 141px);
+  grid-column-gap: 52px;
+}
+
+.info__text {
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info__title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.info__subtitle-link {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.shop__text {
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__icon {
+  margin-right: 75px;
+  width: 210px;
+}
+
+.footer__main-adaptive {
+  display: none;
+}
+
+@media screen and (max-width: 416px) {
+  .footer {
+    background: #FFF;
+  }
+  .footer__main {
+    display: none;
+  }
+  .footer__main-adaptive {
+    display: block;
+  }
+  .footer__title {
+    margin: auto;
+    padding-top: 17px;
+    text-align: center;
+  }
+  .footer__form {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .info__nav {
+    display: none;
+  }
+  .info__block {
+    max-width: 416px;
+    min-height: 50px;
+    border-bottom: 2px solid #F0F0F4;
+    background: #F9F9FC;
+  }
+  .info__btn {
+    width: 95%;
+    height: 49px;
+    color: #7F7F7F;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+    font-style: none;
+    font-weight: 500;
+    line-height: none;
+    line-height: 18px;
+    letter-spacing: -0.086px;
+    background: #F9F9FC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .contact {
+    background: #F9F9FC;
+    height: 145px;
+    border-bottom: 2px solid #F0F0F4;
+  }
+  .info__adaptive {
+    background: #F9F9FC;
+  }
+  .footer__icon {
+    margin: auto;
+    margin-top: 41px;
+    padding-bottom: 80px;
+  }
+  .footer__icon-btn {
+    background: #FFF;
+  }
+  .info__subtitle-link {
+    color: #7F7F7F;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+    font-style: none;
+    font-weight: 500;
+    line-height: none;
+    margin-left: 16px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .catalog__chose-btn, .catalog__main-choose, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle, .current__nav, .current__content, .current__content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__path {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 46px;
+}
+
+.main__path-text {
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.main__path-img {
+  margin: 0 10px;
+}
+
+.catalog__main-title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 30px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  padding-top: 41px;
+}
+
+.catalog__main-content {
+  margin-top: 26px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__main-adaptive {
+  margin-top: 26px;
+  margin-bottom: 50px;
+  display: none;
+}
+
+.catalog__main-btn {
+  max-width: 438px;
+  height: 25px;
+  overflow-y: scroll;
+}
+
+.catalog__main-button {
+  padding-left: 22px;
+  padding-right: 23px;
+  background: #F0F0F4;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  border-radius: 3px;
+  height: 25px;
+  overflow-y: scroll;
+}
+
+.catalog__main-choose {
+  width: 270px;
+}
+
+.choose {
+  width: 178px;
+  height: 33px;
+  border: 1.5px solid #CDCDCD;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-left: 20px;
+}
+
+.catalog__chose-button {
+  background: #FFF;
+}
+
+@media screen and (max-width: 416px) {
+  .catalog__main-adaptive {
+    display: block;
+  }
+  .catalog__main-content {
+    display: none;
+  }
+  .catalog__main-choose {
+    border-top: 0.5px solid #C4C4C4;
+    border-bottom: 0.5px solid #C4C4C4;
+    max-width: 416px;
+    height: 49px;
+    margin-bottom: 26px;
+  }
+  .choose {
+    border: none;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .catalog__content-block, .parameter__select-box, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle, .current__nav, .current__content, .current__content-block, .catalog__main-choose, .catalog__chose-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.parameter {
+  width: 301.454px;
+  height: 1329px;
+}
+
+.parameter__form {
+  width: 301.454px;
+  height: 1329px;
+}
+
+.parameter__button {
+  width: 110px;
+  height: 29px;
+  background: #FFF;
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.44px;
+}
+
+.parameter__button:hover {
+  border-bottom: 2px solid #1C62CD;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.parameter__checkbox {
+  margin-top: 40px;
+}
+
+.parameter__checkbox-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.parameter__title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 600;
+  line-height: none;
+  padding-left: 14px;
+}
+
+.check__style {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.parameter__select {
+  margin-top: 42px;
+}
+
+.parameter__select-box {
+  width: 268px;
+  height: 50px;
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.select {
+  border: none;
+  color: #2F3035;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.parameter__select-title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 600;
+  line-height: none;
+}
+
+.parameter__link-block {
+  margin-top: 20px;
+}
+
+.parameter__link {
+  color: #1C62CD;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  text-decoration: underline;
+}
+
+.text {
+  width: 291px;
+  height: 30px;
+  border: 1px solid #E0E0E0;
+  color: #BDBEC2;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-left: 20px;
+}
+
+.parameter__checkbox-btn {
+  width: 63px;
+  height: 25px;
+  background: #F0F0F4;
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  letter-spacing: 0.84px;
+}
+
+.parameter__checkbox-btn:hover {
+  background: #1C62CD;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.parameter__checkbox-btn1 {
+  width: 86px;
+  height: 25px;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  background: #2F3035;
+}
+
+.catalog__content-block {
+  flex-wrap: wrap;
+  min-height: 1732px;
+}
+
+.block__size2 {
+  margin: 15px auto;
+}
+
+.parameter__choose-btn {
+  width: 252px;
+  height: 50px;
+  background: #F0F0F4;
+  color: #BDBEC2;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.8px;
+}
+
+.parameter__choose-btn2 {
+  width: 210px;
+  background: #FFF;
+  margin: 15px;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 13px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+.parameter__choose-btn2 svg {
+  margin-left: 17px;
+}
+
+.parameter__choose-button {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.choose__link {
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 13px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  text-decoration: underline;
+}
+
+.number {
+  width: 330px;
+  height: 39px;
+  margin: auto;
+  margin-top: 69px;
+  margin-bottom: 100px;
+}
+
+.number__btn {
+  width: 39px;
+  height: 39px;
+  background: #FFF;
+  color: #C4C4C4;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.number__btn:hover {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  border: 2px solid #1C62CD;
+}
+
+.catalog__current {
+  display: none;
+}
+
+.catalog__current {
+  margin-bottom: 83px;
+}
+
+.content__more-btn {
+  display: none;
+  width: 252px;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 416px) {
+  .parameter {
+    display: none;
+  }
+  .catalog__current {
+    display: block;
+  }
+  .content__more-btn {
+    display: block;
+  }
+  .number {
+    margin-top: 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .characteristics__title, .characteristics__text, .product__main, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle, .current__nav, .current__content, .current__content-block, .catalog__main-choose, .catalog__chose-btn, .parameter__select-box, .catalog__content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  padding-bottom: 80px;
+}
+
+.product__img-btn {
+  width: 94px;
+  height: 44px;
+  background: #1C62CD;
+  border-radius: 3px;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.8px;
+  margin-top: 44px;
+  margin-bottom: 20px;
+}
+
+.product__image {
+  width: 500px;
+  height: 375px;
+}
+.product__image img {
+  width: 500px;
+  height: 375px;
+}
+
+.product__price {
+  width: 209px;
+  margin: auto;
+  text-align: center;
+}
+
+.price__unline {
+  color: #000;
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+  font-style: none;
+  font-weight: 300;
+  line-height: none;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.price {
+  color: #2F3035;
+  font-family: "Barlow", sans-serif;
+  font-size: 40px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  padding: 6px 0 17px 8px;
+}
+
+.price__link {
+  color: #1C62CD;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.product__descriptions {
+  padding-top: 36px;
+}
+
+.descriptions__title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 30px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  width: 570px;
+  padding-bottom: 10px;
+}
+
+.descriptions__cod {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.6;
+  margin-bottom: 21, 53px;
+}
+
+.descriptions__img svg {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.characteristic {
+  width: 436px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.characteristics__text {
+  width: 436px;
+  height: 45px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.characteristics__title {
+  width: 436px;
+  height: 45px;
+  margin-bottom: 5px;
+}
+
+.charac__title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  background: #FFF;
+  height: 30px;
+  opacity: 0.6;
+}
+
+.characteristics__title:hover {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  border-bottom: 2px solid #1C62CD;
+  opacity: 100%;
+}
+
+.charac__text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.text__size {
+  width: 125px;
+}
+
+.characteristic__link {
+  color: #1C62CD;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  text-decoration-line: underline;
+  padding-top: 20px;
+}
+
+.descriptions__btn {
+  width: 177px;
+  height: 50px;
+  background: #1C62CD;
+  border-radius: 3px;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.68px;
+  margin-top: 45px;
+}
+
+.description__adaptive {
+  display: none;
+}
+
+@media screen and (max-width: 416px) {
+  .product__image {
+    width: 416px;
+    height: 187.5px;
+    text-align: center;
+  }
+  .product__image img {
+    width: 250px;
+    height: 187.5px;
+  }
+  .description__adaptive {
+    display: block;
+    padding-left: 10px;
+  }
+  .product__descriptions {
+    display: none;
+  }
+  .descriptions__title {
+    color: #2F3035;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 20px;
+    font-style: none;
+    font-weight: 700;
+    line-height: none;
+    width: 288px;
+    padding-top: 40px;
+  }
+  .product__img-btn {
+    display: none;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle, .current__nav, .current__content, .current__content-block, .catalog__main-choose, .catalog__chose-btn, .parameter__select-box, .catalog__content-block, .product__main, .characteristics__text, .characteristics__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__nav {
+  height: 70px;
+  background: #F0F0F4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card__nav-btn {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.6;
+  height: 30px;
+}
+
+.card__nav-btn:hover {
+  border-bottom: 2px solid #1C62CD;
+}
+
+@media screen and (max-width: 416px) {
+  .card__nav {
+    display: block;
+    height: 404px;
+    background: #FFF;
+  }
+  .card__nav-btn {
+    background: #FFF;
+    opacity: 100%;
+  }
+  .card__nav-block {
+    padding-bottom: 35px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title, .header__top, .nav__list, .header__bottom-list, .advertising, .advertising__block-price, .price, .search__form, .categoty__block, .category__bloc-subtitle, .current__nav, .current__content, .current__content-block, .catalog__main-choose, .catalog__chose-btn, .parameter__select-box, .catalog__content-block, .product__main, .characteristics__text, .characteristics__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  padding-left: 38px;
+  padding-top: 50px;
+}
+
+.address__form {
+  display: flex;
+  align-items: center;
+}
+
+.in__text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 17px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  padding-right: 17px;
+}
+
+.address__input {
+  width: 313px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #F0F0F4;
+  border: none;
+  margin-right: 155px;
+  color: #C4C4C4;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.address__checkbox {
+  width: 14px;
+  height: 14px;
+  fill: #C4C4C4;
+  opacity: 0.54;
+  margin-right: 15px;
+}
+
+.address__checkbox-text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 17px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  padding-right: 54px;
+}
+
+.address__block {
+  padding-top: 50px;
+}
+
+.address__block-title {
+  height: 89px;
+}
+
+.add__block-title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  width: 377px;
+}
+
+.address__block-text {
+  height: 89px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.add__block-text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  width: 219px;
+}
+
+.add__block-btn {
+  width: 140px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #1C62CD;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 13px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.56px;
+}
+
+.address__block-adaptive {
+  display: none;
+  padding-top: 40px;
+}
+
+.address__text-adaptive {
+  padding-bottom: 21px;
+}
+
+.add__block-flex {
+  padding-bottom: 21px;
+}
+
+.add__block2 {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 416px) {
+  .address__form {
+    display: block;
+  }
+  .address__input {
+    width: 300px;
+    height: 35px;
+    background: #FFF;
+    border: 1px solid #C4C4C4;
+  }
+  .address__block-adaptive {
+    display: block;
+  }
+  .address__block {
+    display: none;
+  }
+  .add__block-btn {
+    width: 288px;
+    height: 50px;
+  }
+}
+.container {
+  max-width: 1171px;
+  margin: auto;
+}
+
+.content__block {
+  width: 271px;
+  height: 403px;
+  border: 1px solid #CDCDCD;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.block__size {
+  margin-right: 30px;
+}
+
+.content__block:hover {
+  box-shadow: 3px 3px 20px 0px rgba(50, 50, 50, 0.25);
+}
+.content__block:hover .content__block-text {
+  color: #1C62CD;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+.content__block:hover .content__price {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.current__content__sale {
+  position: relative;
+}
+
+.sale {
+  width: 63px;
+  height: 25px;
+  background: #1C62CD;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.sale P {
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 0.84px;
+  padding-top: 6px;
+}
+
+.like__btn {
+  background: rgba(253, 253, 253, 0);
+  position: absolute;
+  top: 16px;
+  left: 84%;
+}
+
+.content__block-img {
+  width: 250px;
+  height: 250px;
+  padding-top: 52px;
+  margin: auto;
+}
+
+.content__block-text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  width: 230px;
+  height: 45px;
+  margin: auto;
+  padding-top: 14px;
+}
+
+.content__price {
+  color: #2F3035;
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  padding-top: 25px;
+}
+
+.content__block-none {
+  width: 100%;
+  position: absolute;
+  top: 320px;
+}
+
+.content__price-none {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  padding-bottom: 13px;
+}
+
+.content__block-btn {
+  position: absolute;
+  left: 78%;
+  top: 363px;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px 0 0 0;
+  background: #1C62CD;
+}
+
+.content__link {
+  color: #1C62CD;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
