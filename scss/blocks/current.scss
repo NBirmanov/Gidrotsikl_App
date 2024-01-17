@@ -1,0 +1,74 @@
+@import "../base/reset.scss";
+@import "../base/vars.scss";
+@import "../base/mixins.scss";
+
+.current {
+    max-width: 1241.182px;
+    min-height: 597px;
+    margin: auto;
+    margin-bottom: 86px;
+    margin-top: 80px
+}
+
+.current__text {
+    @include text($mainColor, $titleFont, 25px, none, 700, none);
+}
+
+.current__nav {
+    max-width: 758px;
+    height: 80px;
+    @extend %flex;
+    padding-top: 19px;
+    margin-bottom: 40px;
+    overflow-x: scroll;
+}
+
+.current__nav-btn {
+    background: $whiteColor;
+    @include text($mainColor, $mainFont, 15px, none, 400, none);
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
+
+.current__nav-btn:hover {
+    border-bottom: 2px solid $accentColor;
+}
+
+.current__content {
+    @extend %flex;
+}
+
+.current__content-block {
+    max-width: 1174px;
+    height: 406px;
+    @extend %flex;
+    overflow-x: scroll;
+}
+
+.current__content-btn {
+    background: $whiteColor;
+}
+
+.current__content-left {}
+
+.current__content-button {
+    width: 252px;
+    height: 50px;
+    background: $menuColor;
+    @include text($mainColor, $mainFont, 15px, none, 400, none);
+    letter-spacing: 1.8px;
+    margin-top: 35px;
+}
+
+.btn {
+    text-align: center;
+}
+
+@include mediaMobile {
+    .current__text {
+        width: 300px;
+        height: 60px;
+        margin: auto;
+        text-align: center;
+    }
+}

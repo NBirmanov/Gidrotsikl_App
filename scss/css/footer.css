@@ -1,0 +1,236 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.footer {
+  background: #F0F0F4;
+  height: 231px;
+}
+
+.footer__main {
+  background: #F0F0F4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 231px;
+}
+
+.footer__title {
+  width: 222px;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  margin-bottom: 34px;
+}
+
+.footer__form {
+  width: 315px;
+}
+
+.footer__input {
+  width: 201px;
+  height: 33px;
+  background: #FFF;
+  border: none;
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-left: 12px;
+}
+
+.footer__btn {
+  width: 109px;
+  height: 33px;
+  background: #1C62CD;
+  color: #FFF;
+  font-family: #2F3035;
+  font-size: 11px;
+  font-style: none;
+  font-weight: 600;
+  line-height: none;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 141px);
+  grid-column-gap: 52px;
+}
+
+.info__text {
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info__title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.info__subtitle-link {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.shop__text {
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__icon {
+  margin-right: 75px;
+  width: 210px;
+}
+
+.footer__main-adaptive {
+  display: none;
+}
+
+@media screen and (max-width: 416px) {
+  .footer {
+    background: #FFF;
+  }
+  .footer__main {
+    display: none;
+  }
+  .footer__main-adaptive {
+    display: block;
+  }
+  .footer__title {
+    margin: auto;
+    padding-top: 17px;
+    text-align: center;
+  }
+  .footer__form {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .info__nav {
+    display: none;
+  }
+  .info__block {
+    max-width: 416px;
+    min-height: 50px;
+    border-bottom: 2px solid #F0F0F4;
+    background: #F9F9FC;
+  }
+  .info__btn {
+    width: 95%;
+    height: 49px;
+    color: #7F7F7F;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+    font-style: none;
+    font-weight: 500;
+    line-height: none;
+    line-height: 18px;
+    letter-spacing: -0.086px;
+    background: #F9F9FC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .contact {
+    background: #F9F9FC;
+    height: 145px;
+    border-bottom: 2px solid #F0F0F4;
+  }
+  .info__adaptive {
+    background: #F9F9FC;
+  }
+  .footer__icon {
+    margin: auto;
+    margin-top: 41px;
+    padding-bottom: 80px;
+  }
+  .footer__icon-btn {
+    background: #FFF;
+  }
+  .info__subtitle-link {
+    color: #7F7F7F;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+    font-style: none;
+    font-weight: 500;
+    line-height: none;
+    margin-left: 16px;
+  }
+}/*# sourceMappingURL=footer.css.map */

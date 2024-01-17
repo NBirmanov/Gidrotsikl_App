@@ -1,0 +1,157 @@
+@import "../base/reset.scss";
+@import "../base/vars.scss";
+@import "../base/mixins.scss";
+
+.footer {
+    background: $menuColor;
+    height: 231px;
+}
+
+.footer__main {
+    background: $menuColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 231px;
+}
+
+.footer__title {
+    width: 222px;
+    @include text($mainColor, $mainFont, 14px, none, 700, none);
+    margin-bottom: 34px;
+}
+
+.footer__form {
+    width: 315px;
+}
+
+.footer__input {
+    width: 201px;
+    height: 33px;
+    background: $whiteColor;
+    border: none;
+    @include text($grayColor, $mainFont, 14px, none, 400, none);
+    padding-left: 12px;
+}
+
+.footer__btn {
+    width: 109px;
+    height: 33px;
+    background: $accentColor;
+    @include text($whiteColor, $mainColor, 11px, none, 600, none, );
+}
+
+.info {
+    // width: 330px;
+    // height: 104px;
+    // @extend %flex;
+    display: grid;
+    grid-template-columns: repeat(2, 141px);
+    grid-column-gap: 52px;
+}
+
+.info__text {
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.info__title {
+    @include text($mainColor, $mainFont, 14px, none, 700, none);
+}
+
+.info__subtitle-link {
+    @include text($mainColor, $mainFont, 14px, none, 400, none);
+}
+
+.shop__text {
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.footer__icon {
+    margin-right: 75px;
+    width: 210px;
+}
+
+.footer__main-adaptive {
+    display: none;
+
+}
+
+@include mediaMobile {
+    .footer {
+        background: $whiteColor;
+    }
+
+    .footer__main {
+        display: none;
+    }
+
+    .footer__main-adaptive {
+        display: block;
+    }
+
+    .footer__title {
+        margin: auto;
+        padding-top: 17px;
+        text-align: center;
+    }
+
+    .footer__form {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .info__nav {
+        display: none;
+    }
+
+    .info__block {
+        max-width: 416px;
+        min-height: 50px;
+        border-bottom: 2px solid $menuColor;
+        background: $contColor;
+    }
+
+    .info__btn {
+        width: 95%;
+        height: 49px;
+        @include text(#7F7F7F, $mainFont, 14px, none, 500, none);
+        line-height: 18px;
+        letter-spacing: -0.086px;
+        background:  $contColor;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+    .contact {
+        background: $contColor;
+        height: 145px;
+        border-bottom: 2px solid $menuColor;
+    }
+
+    .info__adaptive {
+        background: $contColor;
+    }
+
+    .footer__icon {
+        margin: auto;
+        margin-top: 41px;
+        padding-bottom: 80px;
+    }
+
+    .footer__icon-btn {
+        background: $whiteColor;
+    }
+    .info__subtitle-link {
+        @include text(#7F7F7F, $mainFont, 14px, none, 500, none);
+        margin-left: 16px;
+    }
+}

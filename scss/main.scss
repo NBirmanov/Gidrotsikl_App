@@ -1,0 +1,120 @@
+@import "./base/reset.scss";
+@import "./base/vars.scss";
+@import "./base/mixins.scss";
+@import "./blocks/header.scss";
+@import "./blocks/advertising.scss";
+@import "./blocks/search.scss";
+@import "./blocks/category.scss";
+@import "./blocks/current.scss";
+@import "./blocks/billboard.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/content.scss";
+@import "./blocks/product.scss";
+@import "./blocks/card__nav.scss";
+@import "./blocks/address.scss";
+
+.container {
+    max-width: 1171px;
+    margin: auto;
+}
+
+.content__block {
+    width: 271px;
+    height: 403px;
+    border: 1px solid $borderColor;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.block__size {
+    margin-right: 30px;
+}
+
+.content__block:hover{
+    box-shadow: 3px 3px 20px 0px rgba(50, 50, 50, 0.25);
+    .content__block-text {
+        @include text($accentColor, $mainFont, 18px, none, 400, none);
+    }
+    .content__price {
+        @include text($accentColor, $titleFont, 30px, none, 700, none);
+    }
+}
+
+.current__content__sale {
+    position: relative;
+}
+
+.sale {
+    width: 63px;
+    height: 25px;
+    background: $accentColor;
+    text-align: center;
+    position: absolute;
+    top: 0;
+
+    P {
+        @include text($whiteColor, $mainFont, 12px, none, 400, none);
+        letter-spacing: 0.84px;
+        padding-top: 6px;
+    }
+}
+
+.like__btn {
+    background: rgba(253, 253, 253, 0);
+    position: absolute;
+    top: 16px;
+    left: 84%;
+}
+
+.like__img {
+}
+
+.content__block-img {
+    width: 250px;
+    height: 250px;
+    padding-top: 52px;
+    margin: auto;
+}
+
+.content__block-text {
+    @include text($mainColor, $mainFont, 18px, none, 400, none);
+    width: 230px;
+    height: 45px;
+    margin: auto;
+    padding-top: 14px
+}
+
+.content__price {
+    @include text($mainColor, $titleFont, 30px, none, 700, none);
+    padding-top: 25px;
+}
+
+.content__block-none {
+    width: 100%;
+    position: absolute;
+    top: 320px
+}
+
+.content__price-none {
+    @include text($mainColor, $mainFont, 18px, none, 700, none);
+    padding-bottom: 13px;
+}
+
+.content__block-btn {
+    position: absolute;
+    left: 78%;
+    top: 363px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px 0 0 0;
+    background: $accentColor
+}
+
+
+
+.content__link {
+    @include text($accentColor, $mainFont, 16px, none, 400, none);
+    text-decoration: underline;
+}

@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.price, .advertising__block-price, .advertising {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advertising {
+  flex-wrap: wrap;
+  padding-top: 81px;
+}
+
+.advertising__img {
+  width: 100%;
+  max-width: 870px;
+  height: 400px;
+  margin: auto;
+  background-image: url(../images/advertising/Rectangle\ 55.png);
+  position: relative;
+}
+.advertising__img h1 {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 50px;
+  font-style: none;
+  font-weight: 700;
+  line-height: 50px;
+  width: 285px;
+  height: 150px;
+  position: absolute;
+  top: 73px;
+  left: 50%;
+}
+.advertising__img .advertising__img-left {
+  position: absolute;
+  top: 45%;
+  left: 1%;
+  background: rgba(253, 253, 253, 0);
+}
+.advertising__img .advertising__img-right {
+  position: absolute;
+  top: 45%;
+  left: 95%;
+  background: rgba(253, 253, 253, 0);
+}
+.advertising__img .advertising__img-center {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+
+.advertising__block {
+  width: 265px;
+  height: 397px;
+  border-radius: 3px;
+  border: 1px solid #CDCDCD;
+  margin: auto;
+}
+
+.promotion {
+  width: 90px;
+  height: 30px;
+  background: #1C62CD;
+}
+.promotion p {
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.price {
+  margin-right: 7.44px;
+}
+.price p {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 27px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.advertising__block-img {
+  margin-top: 39px;
+  margin-left: 60px;
+}
+
+.advertising__block-title {
+  width: 197.783px;
+  margin: auto;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  text-align: center;
+  padding-top: 4.31px;
+}
+
+.promotion__block {
+  width: 264px;
+  height: 99px;
+  background: #F0F0F4;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.promotion__text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-top: 26px;
+}
+
+.promation__date {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+@media screen and (max-width: 416px) {
+  .advertising__img {
+    width: 320px;
+    height: 164px;
+    background-image: url(../images/advertising/Слайдер\ 1.png);
+  }
+  .advertising__img h1 {
+    display: none;
+  }
+  .advertising__img .advertising__img-left {
+    display: none;
+  }
+  .advertising__img .advertising__img-right {
+    display: none;
+  }
+  .advertising__img .advertising__img-center {
+    display: none;
+  }
+  .advertising__block {
+    margin-top: 41px;
+  }
+}/*# sourceMappingURL=advertising.css.map */

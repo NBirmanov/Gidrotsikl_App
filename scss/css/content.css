@@ -1,0 +1,340 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Staatliches&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.catalog__content-block, .parameter__select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.parameter {
+  width: 301.454px;
+  height: 1329px;
+}
+
+.parameter__form {
+  width: 301.454px;
+  height: 1329px;
+}
+
+.parameter__button {
+  width: 110px;
+  height: 29px;
+  background: #FFF;
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.44px;
+}
+
+.parameter__button:hover {
+  border-bottom: 2px solid #1C62CD;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.parameter__checkbox {
+  margin-top: 40px;
+}
+
+.parameter__checkbox-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.parameter__title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 600;
+  line-height: none;
+  padding-left: 14px;
+}
+
+.check__style {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.parameter__select {
+  margin-top: 42px;
+}
+
+.parameter__select-box {
+  width: 268px;
+  height: 50px;
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.select {
+  border: none;
+  color: #2F3035;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.parameter__select-title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 600;
+  line-height: none;
+}
+
+.parameter__link-block {
+  margin-top: 20px;
+}
+
+.parameter__link {
+  color: #1C62CD;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  text-decoration: underline;
+}
+
+.text {
+  width: 291px;
+  height: 30px;
+  border: 1px solid #E0E0E0;
+  color: #BDBEC2;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-left: 20px;
+}
+
+.parameter__checkbox-btn {
+  width: 63px;
+  height: 25px;
+  background: #F0F0F4;
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  letter-spacing: 0.84px;
+}
+
+.parameter__checkbox-btn:hover {
+  background: #1C62CD;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.parameter__checkbox-btn1 {
+  width: 86px;
+  height: 25px;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  background: #2F3035;
+}
+
+.catalog__content-block {
+  flex-wrap: wrap;
+  min-height: 1732px;
+}
+
+.block__size2 {
+  margin: 15px auto;
+}
+
+.parameter__choose-btn {
+  width: 252px;
+  height: 50px;
+  background: #F0F0F4;
+  color: #BDBEC2;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.8px;
+}
+
+.parameter__choose-btn2 {
+  width: 210px;
+  background: #FFF;
+  margin: 15px;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 13px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+.parameter__choose-btn2 svg {
+  margin-left: 17px;
+}
+
+.parameter__choose-button {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.choose__link {
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 13px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  text-decoration: underline;
+}
+
+.number {
+  width: 330px;
+  height: 39px;
+  margin: auto;
+  margin-top: 69px;
+  margin-bottom: 100px;
+}
+
+.number__btn {
+  width: 39px;
+  height: 39px;
+  background: #FFF;
+  color: #C4C4C4;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.number__btn:hover {
+  color: #1C62CD;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  border: 2px solid #1C62CD;
+}
+
+.catalog__current {
+  display: none;
+}
+
+.catalog__current {
+  margin-bottom: 83px;
+}
+
+.content__more-btn {
+  display: none;
+  width: 252px;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 416px) {
+  .parameter {
+    display: none;
+  }
+  .catalog__current {
+    display: block;
+  }
+  .content__more-btn {
+    display: block;
+  }
+  .number {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=content.css.map */

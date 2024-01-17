@@ -1,0 +1,41 @@
+@import "../base/reset.scss";
+@import "../base/vars.scss";
+@import "../base/mixins.scss";
+
+.card__nav {
+    height: 70px;
+    background: $menuColor;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__nav-btn {
+    @include text($mainColor, $mainFont, 20px, none, 400, none);
+    opacity: 0.6;
+    height: 30px;
+}
+
+.card__nav-btn:hover {
+    border-bottom: 2px solid $accentColor;
+}
+
+
+
+@include mediaMobile {
+    .card__nav {
+        display: block;
+        height: 404px;
+        background: $whiteColor;
+    }
+
+    .card__nav-btn {
+        background: $whiteColor;
+        opacity: 100%;
+    }
+
+    .card__nav-block {
+        padding-bottom: 35px;
+    }
+
+}

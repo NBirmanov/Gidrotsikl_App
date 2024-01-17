@@ -1,0 +1,201 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Staatliches&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.header__bottom-list, .nav__list, .header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 454px;
+}
+
+.nav__list {
+  width: 454px;
+}
+
+.nav__link {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.logo {
+  text-align: center;
+  margin: 21px;
+}
+.logo .logo__img {
+  width: 53px;
+  height: 53px;
+}
+.logo .logo__text {
+  color: #2F3035;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.map__text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+}
+
+.header__top-button {
+  background: #FFF;
+}
+
+.header__bottom-list {
+  max-width: 1171px;
+  height: 53px;
+  background: #F0F0F4;
+  overflow-x: scroll;
+}
+
+.header__bottom-btn {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  width: 119px;
+  height: 53px;
+}
+
+.header__bottom-btn:hover {
+  border-bottom: 2px solid #1C62CD;
+}
+
+.burger__menu {
+  background: #FFF;
+  display: none;
+}
+
+.nav__adaptive {
+  width: 243px;
+  height: 1290px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+
+.burger__menu-btn {
+  width: 242.002px;
+  height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 42px;
+}
+
+.nav__link-adaptive {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.size {
+  padding-left: 53px;
+}
+
+.nav__adaptive-img {
+  margin-left: 10px;
+  margin-right: 23px;
+}
+
+.map__adaptive {
+  width: 181px;
+  margin-top: 65.46px;
+  margin-left: 44px;
+  margin-bottom: 136px;
+}
+
+@media screen and (max-width: 416px) {
+  .header__top {
+    padding: 28.83px 10px 0 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .logo__img {
+    display: none;
+  }
+  .map {
+    display: none;
+  }
+  .burger__menu {
+    display: block;
+  }
+}/*# sourceMappingURL=header.css.map */

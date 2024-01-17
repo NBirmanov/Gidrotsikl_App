@@ -1,0 +1,175 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Staatliches&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.catalog__chose-btn, .catalog__main-choose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__path {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 46px;
+}
+
+.main__path-text {
+  color: #C4C4C4;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.main__path-img {
+  margin: 0 10px;
+}
+
+.catalog__main-title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 30px;
+  font-style: none;
+  font-weight: 700;
+  line-height: none;
+  padding-top: 41px;
+}
+
+.catalog__main-content {
+  margin-top: 26px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__main-adaptive {
+  margin-top: 26px;
+  margin-bottom: 50px;
+  display: none;
+}
+
+.catalog__main-btn {
+  max-width: 438px;
+  height: 25px;
+  overflow-y: scroll;
+}
+
+.catalog__main-button {
+  padding-left: 22px;
+  padding-right: 23px;
+  background: #F0F0F4;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  border-radius: 3px;
+  height: 25px;
+  overflow-y: scroll;
+}
+
+.catalog__main-choose {
+  width: 270px;
+}
+
+.choose {
+  width: 178px;
+  height: 33px;
+  border: 1.5px solid #CDCDCD;
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  padding-left: 20px;
+}
+
+.catalog__chose-button {
+  background: #FFF;
+}
+
+@media screen and (max-width: 416px) {
+  .catalog__main-adaptive {
+    display: block;
+  }
+  .catalog__main-content {
+    display: none;
+  }
+  .catalog__main-choose {
+    border-top: 0.5px solid #C4C4C4;
+    border-bottom: 0.5px solid #C4C4C4;
+    max-width: 416px;
+    height: 49px;
+    margin-bottom: 26px;
+  }
+  .choose {
+    border: none;
+  }
+}/*# sourceMappingURL=catalog.css.map */

@@ -1,0 +1,60 @@
+@import "../base/reset.scss";
+@import "../base/vars.scss";
+@import "../base/mixins.scss";
+
+.search {
+    padding-top: 77px;
+}
+
+.search__btn {}
+
+.search__form {
+    @extend %flex;
+}
+
+.search__button {
+    width: 204px;
+    height: 47px;
+    border-radius: 5px;
+    background: $whiteColor;
+    @include text($mainColor, $mainFont, 20px, none, 400, none);
+}
+
+.search__button:hover {
+    background: $menuColor;
+    @include text($mainColor, $mainFont, 20px, none, 700, none);
+}
+
+.search__button-long {
+    width: 271px;
+    height: 47px;
+    border-radius: 5px;
+    background: $whiteColor;
+    @include text($mainColor, $mainFont, 20px, none, 400, none);
+}
+
+.search__button-long:hover {
+    background: $menuColor;
+    @include text($mainColor, $mainFont, 20px, none, 700, none);
+}
+
+input[id="search__input"] {
+    width: 1025px;
+    height: 50px;
+    border-radius: 3px;
+    background: $menuColor;
+    border: none;
+    @include text(#656464, $mainFont, 16px, none, 400, none);
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.search__form-btn {
+    width: 145px;
+    height: 50px;
+    border-radius: 3px;
+    background: $accentColor;
+    border: none;
+    @include text($whiteColor, $mainFont, 14px, none, 700, none);
+    margin-top: 25px;
+}

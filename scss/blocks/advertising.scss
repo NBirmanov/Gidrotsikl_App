@@ -1,0 +1,134 @@
+@import "../base/reset.scss";
+@import "../base/vars.scss";
+@import "../base/mixins.scss";
+
+.advertising {
+    @extend %flex;
+    flex-wrap: wrap;
+    padding-top: 81px;
+}
+
+.advertising__img {
+    width: 100%;
+    max-width: 870px;
+    height: 400px;
+    margin: auto;
+    background-image: url(../images/advertising/Rectangle\ 55.png);
+    position: relative;
+
+    h1 {
+        @include text($mainColor, $mainFont, 50px, none, 700, 50px);
+        width: 285px;
+        height: 150px;
+        position: absolute;
+        top: 73px;
+        left: 50%;
+    }
+
+    .advertising__img-left {
+        position: absolute;
+        top: 45%;
+        left: 1%;
+        background: rgba(253, 253, 253, 0);
+    }
+
+    .advertising__img-right {
+        position: absolute;
+        top: 45%;
+        left: 95%;
+        background: rgba(253, 253, 253, 0);
+    }
+
+    .advertising__img-center {
+        position: absolute;
+        top: 90%;
+        left: 45%;
+
+    }
+}
+
+.advertising__block {
+    width: 265px;
+    height: 397px;
+    border-radius: 3px;
+    border: 1px solid #CDCDCD;
+    margin: auto
+}
+
+.advertising__block-price {
+    @extend %flex;
+}
+
+.promotion {
+    width: 90px;
+    height: 30px;
+    background: $accentColor;
+    @extend %flexCenter;
+
+    p {
+        @include text($whiteColor, $mainFont, 12px, none, 700, none);
+    }
+}
+
+.price {
+    @extend %flex;
+    margin-right: 7.44px;
+
+    p {
+        @include text($accentColor, $titleFont, 27px, none, 700, none);
+
+    }
+}
+
+.advertising__block-img {
+    margin-top: 39px;
+    margin-left: 60px;
+}
+
+.advertising__block-title {
+    width: 197.783px;
+    margin: auto;
+    @include text($mainColor, $mainFont, 18px, none, 700, none);
+    text-align: center;
+    padding-top: 4.31px;
+}
+
+.promotion__block {
+    width: 264px;
+    height: 99px;
+    background: $menuColor;
+    text-align: center;
+    margin-top: 7px
+}
+
+.promotion__text {
+    @include text($mainColor, $mainFont, 18px, none, 400, none);
+    padding-top: 26px;
+}
+
+.promation__date {
+    @include text($accentColor, $titleFont, 18px, none, 700, none);
+}
+
+@include mediaMobile {
+    .advertising__img {
+        width: 320px;
+        height: 164px;
+        background-image: url(../images/advertising/Слайдер\ 1.png);
+       h1 {
+        display: none;
+       }
+       .advertising__img-left {
+        display: none;
+       }
+       .advertising__img-right {
+        display: none;
+       }
+       .advertising__img-center {
+        display: none;
+       }
+    }
+    .advertising__block {
+        margin-top: 41px;
+    }
+}

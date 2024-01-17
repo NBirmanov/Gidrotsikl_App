@@ -1,0 +1,213 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Staatliches&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.add__block-flex, .address__text-adaptive, .address__block-text, .address__block-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address {
+  padding-left: 38px;
+  padding-top: 50px;
+}
+
+.address__form {
+  display: flex;
+  align-items: center;
+}
+
+.in__text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 17px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  padding-right: 17px;
+}
+
+.address__input {
+  width: 313px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #F0F0F4;
+  border: none;
+  margin-right: 155px;
+  color: #C4C4C4;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+}
+
+.address__checkbox {
+  width: 14px;
+  height: 14px;
+  fill: #C4C4C4;
+  opacity: 0.54;
+  margin-right: 15px;
+}
+
+.address__checkbox-text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 17px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  padding-right: 54px;
+}
+
+.address__block {
+  padding-top: 50px;
+}
+
+.address__block-title {
+  height: 89px;
+}
+
+.add__block-title {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  width: 377px;
+}
+
+.address__block-text {
+  height: 89px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.add__block-text {
+  color: #2F3035;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  opacity: 0.7;
+  width: 219px;
+}
+
+.add__block-btn {
+  width: 140px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #1C62CD;
+  color: #FFF;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 13px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: 1.56px;
+}
+
+.address__block-adaptive {
+  display: none;
+  padding-top: 40px;
+}
+
+.address__text-adaptive {
+  padding-bottom: 21px;
+}
+
+.add__block-flex {
+  padding-bottom: 21px;
+}
+
+.add__block2 {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 416px) {
+  .address__form {
+    display: block;
+  }
+  .address__input {
+    width: 300px;
+    height: 35px;
+    background: #FFF;
+    border: 1px solid #C4C4C4;
+  }
+  .address__block-adaptive {
+    display: block;
+  }
+  .address__block {
+    display: none;
+  }
+  .add__block-btn {
+    width: 288px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=address.css.map */

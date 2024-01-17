@@ -1,0 +1,113 @@
+@import "../base/reset.scss";
+@import "../base/vars.scss";
+@import "../base/mixins.scss";
+
+.billboard__block {
+    height: 165px;
+    background: $accentColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 71px;
+}
+
+.billboard__img {
+    margin-left: 71px;
+}
+
+.billboard__title {
+    width: 308px;
+    @include text($whiteColor, $mainColor, 36px, none, 700, 36px);
+}
+
+.billboard__btn {
+    width: 284px;
+    height: 57px;
+    background: $whiteColor;
+    @include text($mainColor, $mainFont, 24px, none, 500, 50px);
+    margin-right: 10%;
+}
+
+.billboard__block-adaptive {
+    width: 300px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    background: $accentColor;
+    margin-bottom: 71px;
+    position: relative;
+}
+
+.billboard__img-adaptive {
+    position: absolute;
+    left: 9.38px;
+    top: 35px;
+
+    img {
+        width: 66.563px;
+        height: 54px;
+    }
+}
+
+.billboard__img-adaptive2 {
+    position: absolute;
+    top: 39px;
+    left: 218.44px;
+
+    img {
+        width: 66.563px;
+        height: 54px;
+    }
+}
+
+.billboard__text-adaptive {
+    width: 215.625px;
+    margin: auto;
+    text-align: center;
+}
+
+.billboard__title-adaptive {
+    width: 215.625px;
+    @include text($whiteColor, $mainColor, 18px, none, 700, 36px);
+    line-height: 18px;
+    text-align: center;
+}
+
+@include mediaMobile {
+    .billboard {
+        width: 320px;
+        height: 90px;
+        display: block;
+    }
+
+    .billboard__btn {
+        width: 141px;
+        height: 33px;
+        @include text($mainColor, $mainFont, 14px, none, 500, 50px);
+    }
+
+    .billboard__img {
+
+        img {
+            width: 79px;
+            height: 51px;
+        }
+    }
+
+    .billboard__block-adaptive {
+        display: block;
+    }
+
+    .billboard__block {
+        display: none;
+    }
+
+    .billboard__btn {
+        width: 132.188px;
+        height: 33px;
+        margin: auto;
+        @include text($mainColor, $mainFont, 14px, none, 500, 50px);
+    }
+}

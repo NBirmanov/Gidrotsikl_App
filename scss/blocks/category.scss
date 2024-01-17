@@ -1,0 +1,52 @@
+@import "../base/reset.scss";
+@import "../base/vars.scss";
+@import "../base/mixins.scss";
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.categoty__block {
+    width: 370px;
+    height: 129px;
+    border-radius: 3px;
+    border: 1px solid $borderColor;
+    background: $whiteColor;
+    margin: auto;
+    margin-bottom: 30px;
+    @extend %flex;
+    padding: 20px 37.79px 7px 20px;
+}
+
+.categoty__block:hover {
+    box-shadow: 3px 3px 20px 0px rgba(50, 50, 50, 0.25);
+    .block__text {
+        @include text($accentColor, $titleFont, 23px, none, 700, none);
+    }
+    
+}
+
+
+.category__bloc-subtitle {
+    @extend %flex;
+    width: 69px;
+    padding-top: 52px;
+    padding-bottom: 7px;
+}
+
+.block__text {
+    @include text($mainColor, $titleFont, 23px, none, 700, none);
+}
+
+.block__subtitle {
+    @include text($grayColor, $mainFont, 14px, none, 400, none);
+
+}
+
+.category__block-img {}
+
+.block-text {}
